@@ -1,0 +1,352 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@font-face{
+    font-family: product sans;
+    src: url(./Product\ Sans\ Bold.ttf);
+
+}
+@font-face{
+    font-family: gilroy;
+    src: url(./Gilroy-Regular.ttf);
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1508179522353-11ba468c4a1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#kor{
+    width :28vw;
+    height: 28vw;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.096);
+    position: absolute;
+    left: 9vw;
+    top: 5vw;
+}
+#kor1{
+    width :17vw;
+    height: 17vw;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.096);
+    position: absolute;
+    left: 64.7vw;
+    top: 32vw;
+}
+#line{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.lines{
+    width: 0.1%;
+    height: 100%;
+    background-color: rgba(121, 120, 120, 0.281);
+    margin-left: 8vw;
+
+
+}
+#nav{
+    width: 80%;
+    height: 9%;
+    /* background-color: pink; */
+    position: absolute;
+    top: 0;
+    left: 8%;
+    display: flex;
+    justify-content: space-between;
+    font-family: product sans;
+    font-size: 1vw;
+    color: rgb(235, 235, 235);
+
+}
+#lef{
+    width: 25vw;
+    height: 5vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lef h5{
+    font-family: gilroy;
+    font-size: 1vw;
+    font-weight: 600;
+}
+#lef h4{
+    font-family: product sans;
+    margin-right: 5.7vw;
+}
+#about{
+    width: 10vw;
+    height:5vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1vw;
+}
+#con{
+    width: 10vw;
+    height: 5vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5vw;
+}
+#brand{
+    width:37vw;
+    height: 35vw;
+    /* background-color: brown; */
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    display: flex;
+    color: #fff;
+}
+#lefty{
+    width: 27vw;
+    height: 20vw;
+    /* background-color: orchid; */
+}
+#lefty h3{
+    font-family: product sans;
+    font-size: 1vw;
+}
+#lefty h1{
+    font-size: 11vw;
+    font-family: product sans;
+    line-height: 11vw;
+    letter-spacing: 0.6vw;
+    color: #fff;
+}
+#lefty h2{
+    font-size: 11vw;
+    font-family: product sans;
+    line-height: 7.5vw;
+    letter-spacing: 1.9vw;
+    color: #fff;
+}
+#righty{
+    width: 11vw;
+    height: 20vw;
+    /* background-color: rgb(13, 70, 55); */
+    margin-right: 2.9vw;
+}
+#righty h1{
+    font-size: 11vw;
+    font-family: product sans;
+    line-height: 11vw;
+    letter-spacing: 0.6vw;
+    color: #fff;
+    transform: rotate(-90deg);
+    margin-top: 5.5vw;
+}
+#linec{
+    width: 5vw;
+    height: 0.1vw;
+    background-color: white;
+    position: absolute;
+    top: 21vw;
+}
+#down{
+    width: 37vw;
+    height:13vw;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 22vw;
+    display: flex;
+    
+}
+#play{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+#play h5{
+    font-family: product sans;
+    margin-top: 1vw;
+    color: rgb(197, 197, 197);
+}
+#play p{
+    font-family:gilroy;
+    width: 100%;
+    font-size: 0.9vw;
+    color: #fff;
+    margin-top: 1vw;
+}
+#fl{
+    width: 30%;
+    height: 2vw;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+}
+#circlep{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+}
+#circlep i{
+    color: #000;
+}
+#circlep1{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: rgba(143, 143, 143, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+}
+#circlep1 i{
+    color: rgb(255, 255, 255);
+}
+#date{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(131, 30, 23); */
+}
+#date h5{
+    font-family: product sans;
+    margin-top: 1vw;
+    color: rgba(204, 204, 204, 0.76);
+}
+#date p{
+    font-family:gilroy;
+    width: 100%;
+    font-size: 0.9vw;
+    color: #fff;
+    margin-top: 1vw;
+}
+#beech{
+    width: 10vw;
+    height: 10vw;
+    /* background-color: royalblue; */
+    position: absolute;
+    top: 40%;
+    left: 68.4%;
+}
+#beech h4{
+    font-size: 1vw;
+    font-family: gilroy;
+    margin-top: 5.5vw;
+    margin-left: 1.5vw;
+    color: rgb(211, 211, 211);
+}
+#centre{
+    width: 5vw;
+     margin-left: 2vw;
+    
+    height: 5vw;
+    border-radius: 50%;
+    /* background-color: rgba(65, 105, 225, 0); */
+    position: absolute;
+ border: 2px solid rgb(179, 178, 178);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    
+
+}
+#centre i{
+    color: #fff;
+    font-size: 2vw;
+}
+#four{
+    width: 6vw;
+    height: 15vw;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0%;
+    right: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1vw;
+}
+#four h4{
+    transform: rotate(90deg);
+    color: #fff;
+    font-family: product sans;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+#four h1{
+    font-size: 3vw;
+    color: #fff;
+    transform: rotate(90deg);
+    font-family: product sans;
+    margin-right: 1.5vw;
+}
+.line04{
+    width: 7vw;
+    height: 0.15vw;
+    background-color: rgb(235, 233, 233);
+    transform: rotate(90deg);
+    
+}
+#neon{
+    width: 6vw;
+    height: 20vw;
+    /* background-color: rgb(23, 198, 252); */
+    position: absolute;
+    bottom: 0%;
+    right: 0vw;
+    
+    
+}
+#neon h1{
+font-size: 3vw;
+transform: rotate(90deg);
+white-space: nowrap;
+font-family: product sans;
+font-weight: 600;
+margin-top: 1vw;
+color: #fff;
+}
+#neon h4{
+    transform: rotate(90deg);
+    margin-right: 4vw;
+    margin-bottom:15vw;
+    margin-top: -4.1vw;
+    color: rgb(238, 238, 238);
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 0.9vw;
+}
+#nav2{
+    width: 23vw;
+    height: 5vw;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 2vw;
+    left: 8.1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav2 h3{
+    font-family: product sans;
+    font-size: 1vw;
+    color: rgb(223, 223, 223);
+}
